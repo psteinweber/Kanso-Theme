@@ -8,15 +8,67 @@
    Base
    ========================================================================== */
 
-body { }
+body { 
+   font-family: 'Domine', serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+}
 
-...
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+   font-family: 'Lato', sans-serif;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+
+h1, .h1 {
+   font-size: 50px;
+}
+
+h2, .h2 {
+   font-size: 40px;
+   line-height: 50px;
+}
+
+@brand-primary:        #808080;
+@text-color:           @gray;
+
+
+
+// Container sizes
+// --------------------------------------------------
+
+// Small screen / tablet
+@container-tablet:             ((720px + @grid-gutter-width));
+@container-sm:                 @container-tablet;
+
+// Medium screen / desktop
+@container-desktop:            ((850px + @grid-gutter-width));
+@container-md:                 @container-desktop;
+
+// Large screen / wide desktop
+@container-large-desktop:      ((900px + @grid-gutter-width));
+@container-lg:                 @container-large-desktop;
+
+
 
 /* ==========================================================================
    Header
    ========================================================================== */
 
 .banner { }
+
+.navbar {
+   margin-bottom: 100px;
+}
+
+.navbar-default {
+   background-color: #fff;
+   border-color: #fff;
+   font-family: 'Lato', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1.1px;
+}
 
 
 
@@ -25,7 +77,10 @@ body { }
    ========================================================================== */
 
 .content { }
-
+.page-header {
+   border-bottom: 0px none;
+   margin: 0px 0 20px;
+}
 
 
 /* ==========================================================================
@@ -45,7 +100,9 @@ body { }
 
 .sidebar { }
 
-
+.widget h3 {
+   font-weight: normal;
+}
 
 /* ==========================================================================
    Posts
@@ -63,7 +120,10 @@ body { }
    Footer
    ========================================================================== */
 
-.content-info { }
+.content-info { 
+   font-family: 'Lato', sans-serif;
+   text-transform: uppercase;
+}
 
 
 
