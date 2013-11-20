@@ -30,6 +30,7 @@ h2, .h2 {
    line-height: 50px;
 }
 
+
 @brand-primary:        #808080;
 @text-color:           @gray;
 
@@ -88,7 +89,7 @@ h2, .h2 {
 }
 
 .entry-summary {
-   margin-bottom: 40px;
+   margin-bottom: 60px;
 }
 
 blockquote p {
@@ -175,8 +176,20 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 
-@media (min-width: @screen-sm-min) { }
+@media (min-width: @screen-sm-min) { 
+      .col-sm-3 img { 
+      margin: 5px 0px 0px 0px;
+      }
+}
 
-@media (min-width: @screen-md-min) { }
+@media (min-width: @screen-md-min) { 
+      .col-sm-3 img { 
+      margin: 5px 0px 0px 40px;
+      }
+}
 
-@media (min-width: @screen-lg-min) { }
+@media (min-width: @screen-lg-min) {
+      .col-sm-3 img { 
+      margin: 5px 0px 0px 50px;
+      }
+}
