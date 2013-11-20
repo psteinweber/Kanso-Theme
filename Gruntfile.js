@@ -105,7 +105,7 @@ module.exports = function(grunt) {
           archive: 'Kanso.zip'
         },
         files: [
-          {src: ['**'], dest: '/'}, // includes files in path and its subdirs
+          {src: ['**', '!Kanso.zip', '!node_modules/**'], dest: '/'}, // includes files in path and its subdirs
         ]
       }
     }
