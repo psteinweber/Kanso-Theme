@@ -1,6 +1,6 @@
 # [Kanso Theme](http://metamonks.com/kanso-theme/)
 
-Kanso is a minimalistic is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boilerplate.com/), [Bootstrap](http://getbootstrap.com/).
+Kanso is a minimalistic is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/).
 It is a simple fork of the marvelous [Roots Theme](http://roots.io). Check out their documentation for in-depth modifications.
 
 * Source: [https://bitbucket.org/stnwbr/kanso-theme/](https://github.com/stnwbr/Kanso-Theme)
@@ -9,25 +9,16 @@ It is a simple fork of the marvelous [Roots Theme](http://roots.io). Check out t
 
 ## Installation
 
-Download the [ZIP file](#) or clone the git repo - `git clone git://github.com/stnwbr/kanso-theme.git` - and then rename the directory to the name of your theme or website. [Install Grunt](http://gruntjs.com/getting-started), and then install the dependencies for Roots contained in `package.json` by running the following from the Roots theme directory:
+Download the [ZIP file](#) and install install it via the WordPress backend.
 
-```
-npm install
-```
+## Changelog
 
-Reference the [theme activation](http://roots.io/roots-101/#theme-activation) documentation to understand everything that happens once you activate Roots.
+0.1.0 
+* initial release
+* modified typography, margins, layout
 
-## Theme Development
 
-After you've installed Grunt and ran `npm install` from the theme root, use `grunt watch` to watch for updates to your LESS and JS files and Grunt will automatically re-build as you write your code.
-
-## Configuration
-
-Edit `lib/config.php` to enable or disable support for various theme functions and to define constants that are used throughout the theme.
-
-Edit `lib/init.php` to setup custom navigation menus and post thumbnail sizes.
-
-## Documentation
+## Further Documentation
 
 ### [Roots Docs](http://roots.io/docs/)
 
