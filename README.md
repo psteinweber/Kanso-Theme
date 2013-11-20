@@ -1,7 +1,7 @@
 # [Kanso Theme](http://metamonks.com/kanso-theme/)
 
 Kanso is a minimalistic is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/).
-It is a simple fork of the marvelous [Roots Theme](http://roots.io). Check out their documentation for in-depth modifications.
+It is a simple (manual) fork of the marvelous [Roots Theme](http://roots.io). Check out their documentation for in-depth modifications.
 
 * Source: [https://bitbucket.org/stnwbr/kanso-theme/](https://github.com/stnwbr/Kanso-Theme)
 * Home Page: [http://metamonks.com/kanso-theme/](http://metamonks.com/kanso-theme)
