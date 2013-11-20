@@ -9,7 +9,7 @@ It is a simple fork of the marvelous [Roots Theme](http://roots.io). Check out t
 
 ## Installation
 
-Download the [ZIP file](#) and install install it via the WordPress backend.
+Download the [ZIP file](https://github.com/stnwbr/Kanso-Theme/raw/master/Kanso.zip) and install install it via the WordPress backend.
 
 ## Changelog
 
