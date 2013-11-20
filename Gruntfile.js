@@ -98,6 +98,16 @@ module.exports = function(grunt) {
         'assets/css/main.min.css',
         'assets/js/scripts.min.js'
       ]
+    },
+    compress: {
+      main: {
+        options: {
+          archive: 'Kanso.zip'
+        },
+        files: [
+          {src: ['**'], dest: '/'}, // includes files in path and its subdirs
+        ]
+      }
     }
   });
 
@@ -108,13 +118,15 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-wp-version');
+  grunt.loadNpmTasks('grunt-contrib-compress');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
     'less',
     'uglify',
-    'version'
+    'version',
+    'compress'
   ]);
   grunt.registerTask('dev', [
     'watch'
