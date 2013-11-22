@@ -7,6 +7,13 @@ It is a simple (manual) fork of the marvelous [Roots Theme](http://roots.io). Ch
 * Home Page: [http://metamonks.com/kanso-theme/](http://metamonks.com/kanso-theme)
 * Twitter: [@metamonks](https://twitter.com/metamonks)
 
+## Demo
+
+Click [here](http://metamonks.com/kanso-theme-demo) to see Kanso in action.
+
+![Kanso Theme](http://metamonks.com/wp-content/uploads/kanso-theme.png)
+
+
 ## Installation
 
 Download the [ZIP file](https://github.com/stnwbr/Kanso-Theme/raw/master/Kanso.zip) and install install it via the WordPress backend.
