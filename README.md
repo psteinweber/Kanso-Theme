@@ -24,6 +24,9 @@ Download the [ZIP file](https://github.com/stnwbr/Kanso-Theme/raw/master/Kanso.z
 * initial release
 * modified typography, margins, layout
 
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
 
 ## Further Documentation
 
